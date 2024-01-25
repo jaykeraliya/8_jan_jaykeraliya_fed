@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>This is student registration form</h2>
+    <form action="Backend.php">
+        <div> UserName:<input type="text">
+        </div>
+
+        <div>
+            Email:<input type="Email">
+        </div>
+
+        <div>
+          Password:<input type="Password">
+        </div>
+
+        <div>
+            DateOfBirth:<input type="DOB">   
+        </div>
+
+        <div>
+            FavouriteColor:<input type="ColorName">
+        </div>
+
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio"id="male" name="Gender" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+        </div>
+    </form>
+
+    <h3>This is Favourite food items</h3>
+    <form action="action_page.php">
+        <label for="Favouritefooditems">ChooseFoodItem:</label>
+        <select name="fooditems" id="Categories">
+        <option value="Paavbhaji">Paavbhaji</option>
+        <option value="Samosa">Samosa</option>
+        <option value="Dhokla">Dhokla</option>
+       <option value="ChineseBhel">ChineseBhel</option>
+       <option value="Pudla">Pudla</option>
+       <option value="Passta">Passta</option>
+       <option value="Pizza">Pizza</option>
+  </select>
+ 
+    </form>
+     <h4>This is Page of W3schools</h4>
+    <form action="/action_page.php">
+        <p><label for="w3review">Review of W3Schools:</label></p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      
+</body>
+</html>
+  
